@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+    img {
+        border-radius:20px;
+    }
+    
+    body {
+        background-color: black;
+        background-image:url("../img/bg7.jpg");
+        color: white;
+        text-align: center;
+        
+    }
+    
+    #main {
+        font-family: 'Baloo Bhaina', cursive;
+        background-image:url("../img/booster.jpg");
+        width:250px;
+        height:500px;
+        position: relative;
+        margin:0 auto;
+    }
+    
+    #showcards{
+        width:600;
+        text-align: center;
+        margin:0 auto;
+    }
+    
+    #card0, #card1, #card2 {
+        top:248px;
+        position: fixed;
+    }
+    
+    #card0{
+        left:330px;
+    }
+    #card1{
+        left:630px;
+    }
+    #card2{
+        left:930px;
+    }
+    
+    input{
+        top:75px;
+        left:530px;
+        position:absolute;
+        font-size:1.3em;
+        background-color: Transparent;
+        border:none;
+        outline:none; /*hides button outline when clicking on it*/
+        font-weight:bold;
+        color:yellow;
+        cursor:pointer;
+    }
+    
+    #output{
+     width:900px;   
+     margin:0 auto;
+     position:absolute;
+     text-align:center;
+     top:700px;
+     left:315px;
+     font-size:1.5em;
+     line-height: .7em;
+    }
+    
+    footer{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:800px;
+        margin:0 auto;
+        padding-top:10px;
+        text-align: center;
+    }
